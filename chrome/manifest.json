@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Github for Trello",
+  "version": "0.6.8",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://trello.com/*",
+        "https://trello.com/*"
+      ],
+      "css": [
+        "css/grid.css",
+        "main.css"
+      ],
+      "js": [
+        "bundle.js"
+      ]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "options.html"
+  ]
+}
