@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/snypelife/chrome-extension-trello-github#readme",
   "dependencies": {
-    "lodash-es": "^4.13.1"
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "babel": "^6.5.2",
